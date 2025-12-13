@@ -11,8 +11,10 @@ export const BibTeX: React.FC = () => {
 {`@article{ding2025clarity,
   title={CLARITY: Medical World Model for Guiding Treatment Decisions by Modeling Context-Aware Disease Trajectories in Latent Space},
   author={Ding, Tianxingjian and Zou, Yuanhao and Chen, Chen and Shah, Mubarak and Tian, Yu},
-  journal={Institute of Artificial Intelligence, University of Central Florida},
-  year={2025}
+  journal={arXiv preprint arXiv:2512.08029},
+  year={2025},
+  url={https://arxiv.org/abs/2512.08029},
+  doi={10.48550/arXiv.2512.08029}
 }`}
           </pre>
         </div>

@@ -53,14 +53,18 @@ export const Hero: React.FC = () => {
 
         <div className="flex flex-wrap justify-center gap-4 animate-fade-in delay-500">
           <a
-            href="#"
+            href="https://arxiv.org/abs/2512.08029"
+            target="_blank"
+            rel="noopener noreferrer"
             className="group inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full hover:shadow-xl hover:scale-105 transition-all duration-300 font-semibold"
           >
             <FileText size={20} className="group-hover:rotate-12 transition-transform" />
             <span>Paper</span>
           </a>
           <a
-            href="#"
+            href="https://arxiv.org/abs/2512.08029"
+            target="_blank"
+            rel="noopener noreferrer"
             className="group inline-flex items-center gap-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-3 rounded-full hover:shadow-xl hover:scale-105 transition-all duration-300 font-semibold"
           >
             <BookOpen size={20} className="group-hover:rotate-12 transition-transform" />
