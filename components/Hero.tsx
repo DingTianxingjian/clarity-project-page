@@ -71,11 +71,13 @@ export const Hero: React.FC = () => {
             <span>arXiv</span>
           </a>
           <a
-            href="#"
+            href="https://github.com/DingTianxingjian/CLARITY"
+            target="_blank"
+            rel="noopener noreferrer"
             className="group inline-flex items-center gap-2 bg-gradient-to-r from-gray-700 to-gray-900 text-white px-8 py-3 rounded-full hover:shadow-xl hover:scale-105 transition-all duration-300 font-semibold"
           >
             <Github size={20} className="group-hover:rotate-12 transition-transform" />
-            <span>Code (Coming Soon)</span>
+            <span>Code</span>
           </a>
         </div>
       </div>
