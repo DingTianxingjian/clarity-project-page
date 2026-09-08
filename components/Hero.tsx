@@ -30,9 +30,16 @@ export const Hero: React.FC = () => {
           </span>
         </h1>
 
-        <p className="text-lg md:text-xl text-gray-600 mb-8 animate-fade-in delay-200 max-w-3xl mx-auto">
+        <p className="text-lg md:text-xl text-gray-600 mb-6 animate-fade-in delay-200 max-w-3xl mx-auto">
           Modeling Context-Aware Disease Trajectories in Latent Space
         </p>
+
+        {/* ECCV 2026 Acceptance Badge */}
+        <div className="inline-block mb-8 animate-fade-in delay-250">
+          <div className="bg-gradient-to-r from-amber-500 to-orange-600 text-white px-6 py-2 rounded-full font-semibold text-lg shadow-lg">
+            ✨ Accepted by ECCV 2026 ✨
+          </div>
+        </div>
 
         <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-lg mb-6 animate-fade-in delay-300">
           {authors.map((author, index) => (
