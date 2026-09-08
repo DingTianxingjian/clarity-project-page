@@ -86,6 +86,15 @@ export const Hero: React.FC = () => {
             <Github size={20} className="group-hover:rotate-12 transition-transform" />
             <span>Code</span>
           </a>
+          <a
+            href="https://huggingface.co/papers/2512.08029"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 to-yellow-500 text-white px-8 py-3 rounded-full hover:shadow-xl hover:scale-105 transition-all duration-300 font-semibold"
+          >
+            <span className="text-xl leading-none group-hover:rotate-12 transition-transform">🤗</span>
+            <span>Hugging Face</span>
+          </a>
         </div>
       </div>
     </section>
